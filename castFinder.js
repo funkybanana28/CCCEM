@@ -592,7 +592,7 @@ function loadPreLoadedSeeds() {
     if (pooled.length == 0) {return false;}
     let chosen = preLoadedSeeds[choose(pooled)];
     defaultBackfire[0] = chosen[1]; chosen = choose(chosen.slice(2,chosen.length));
-    Game.seed=chosen[0];Game.Objects["Wizard tower"].minigame.spellsCastTotal=chosen[1];
+    Game.seed=chosen[0];Game.Objects["Wizard tower"].minigame.spellsCast=chosen[1];
 }
 
 function arrayToString(arr) {
