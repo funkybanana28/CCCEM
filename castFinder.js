@@ -613,7 +613,7 @@ function stringToArray(str) {
     return arr
 }
 
-eval('Game.Objects["Wizard tower"].minigame.draw='+Game.Objects["Wizard tower"].minigame.draw.toString().replace('Beautify(M.spellsCastTotal)','(usingPreload?"[hidden]":Beautify(M.spellsCastTotal))').replace('if (Game.drawT%5==0)','let M = Game.Objects["Wizard tower"].minigame; if (Game.drawT%5==0)'));
+eval('Game.Objects["Wizard tower"].minigame.draw='+Game.Objects["Wizard tower"].minigame.draw.toString().replace('Beautify(M.spellsCast)','(usingPreload?"[hidden]":Beautify(M.spellsCast))').replace('if (Game.drawT%5==0)','let M = Game.Objects["Wizard tower"].minigame; if (Game.drawT%5==0)'));
 
 function CCCEMIntegratedExecute() {
     Math.seedrandom(Game.seed+'+execute');
