@@ -1,6 +1,6 @@
 const __CCCEM_INIT_FUNCTION__ = function() { 
     if (!localStorageGet('CookieClickerLang')) { return; }
-    window.cccemDir = App?(this.dir+'/'):(window.locally_hosted?'./':'https://cursedsliver.github.io/CCCEM/');
+    window.cccemDir = 'https://cdn.jsdelivr.net/gh/funkybanana28/CCCEM@main/';
     window.cccemSpritesheet = cccemDir+"cccemAsset.png";
     const supportedLang = [
         'EN'
