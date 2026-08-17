@@ -1,6 +1,6 @@
 const __CCCEM_INIT_FUNCTION__ = function() { 
     if (!localStorageGet('CookieClickerLang')) { return; }
-    window.cccemDir = App?(this.dir+'/'):(window.locally_hosted?'./':'https://raw.githubusercontent.com/funkybanana28/CCCEM/main/');
+    window.cccemDir = 'https://cdn.jsdelivr.net/gh/funkybanana28/CCCEM@main/';
     window.cccemSpritesheet = cccemDir+"cccemAsset.png";
     const supportedLang = [
         'EN'
